@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <unistd.h>
 /**
  * main - print a string
  *
@@ -6,8 +7,6 @@
  */
 int main()
 {
-char str[i] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
-putchar('i',++);
-putchar('\n');
+write(1, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n",60);
 return (1);
 }
