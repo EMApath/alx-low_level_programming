@@ -6,7 +6,7 @@
 int main(void)
 {
 	int f, g;
-	
+
 	for (f = 0; f <= 98; f++)
 	{
 	for (g = f + 1; g <= 99; g++)
@@ -21,7 +21,7 @@ int main(void)
 		putchar(',');
 		putchar(' ');
 	}
-	}	
+	}
 	putchar('\n');
 	return (0);
 }
