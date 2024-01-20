@@ -9,11 +9,13 @@ int main(void)
 
 	for (ctr = 48; ctr <= 57; ctr++)
 	{
-		putchar(ctr);
-		putchar(',');
-		putchar(' ');
+	putchar(ctr);
+	if (ctr != 57)
+	{
+	putchar(',');
+	putchar(' ');
 	}
-
+	}
 	putchar('\n');
 	return (0);
 }
