@@ -13,7 +13,7 @@ int main(void)
 	for (i = 0; i < 80; i++)
 	{
 		if (s[i] == '\0')
-		{	
+		{
 			_putchar('\n');
 			break;
 		}
